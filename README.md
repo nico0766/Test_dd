@@ -152,3 +152,19 @@ docker exec -it jd bash
 ```
 wget -q https://raw.githubusercontent.com/afwfv/dd/main/v4mb.sh  -O v4mb.sh && chmod +x v4mb.sh && ./v4mb.sh
 ```
+
+--------------
+#重启之后需要操作：
+```
+docker exec -it jd bash
+```
+```
+docker exec -it jd bash
+```
+```
+cd panel
+```
+```
+pm2 start server.js
+```
+
